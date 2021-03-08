@@ -16,7 +16,7 @@ To evaluate the files run:
 
 ## Results
 ```
-(py) C:\Users\nagas\PycharmProjects\eluvio_challenge>python elv-ml-challenge\evaluate_sceneseg.py output
+(py) C:\Users\nagas\PycharmProjects\eluvio_challenge>python evaluate_sceneseg.py output
 # of IMDB IDs: 64
 Scores: {
     "AP": 0.43432948488202827,
@@ -29,7 +29,7 @@ Scores: {
 ```
 
 ```
-(py) C:\Users\nagas\PycharmProjects\eluvio_challenge>python elv-ml-challenge\evaluate_sceneseg.py data
+(py) C:\Users\nagas\PycharmProjects\eluvio_challenge>python evaluate_sceneseg.py data
 # of IMDB IDs: 64
 Scores: {
     "AP": 0.4418872028438688,
