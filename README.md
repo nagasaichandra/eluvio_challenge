@@ -1,20 +1,20 @@
-#Eluvio challenge- Scene Segmentation
+# Eluvio challenge- Scene Segmentation
 
 Objective is to predict the probability that a shot boundary is a scene boundary.
 
 For each movie, we use the mean of pairwise distances of given features. The shots of different scenes should have higher distance values when compared to shots of same scenes. We use this logic to predict the probabilities.
 
-##Implementation
+## Implementation
 Have the 64 pickle files data in a folder ('data-dir') and run the following command. ('output-dir' denotes where you want the output files to be stored)
 
 `python main.py data-dir output-dir`
 
-##Validation
+## Validation
 To evaluate the files run:
 
 `python elv-ml-challenge/evaluate_sceneseg.py output-dir`
 
-##Results
+## Results
 ```
 (py) C:\Users\nagas\PycharmProjects\eluvio_challenge>python elv-ml-challenge\evaluate_sceneseg.py output
 # of IMDB IDs: 64
